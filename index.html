@@ -1,12 +1,76 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
     <title>Clemar</title>
 </head>
 <body>
+    <!-- ---------nav---------- -->
+    <nav>
+        <div class="container nav__container">
+            <div class="nav__left">
+                <a href="#" class="nav__link"><img src="./images/logo.svg" alt="logo bor edi" class="nav__logo"></a>
+                <select class="nav__select" name="change" id="">
+                    <option disabled selected value="">Каталог</option>
+                    <option value="">Каталог1</option>
+                    <option value="">Каталог2</option>
+                    <option value="">Каталог3</option>
+                </select>
+            </div>
+            <div class="nav__right">
+                <a class="nav__link" href="#"><i class="fa-solid fa-magnifying-glass nav__i"></i></a>
+                <a class="nav__link" href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+                <span class="nav__span">
+                    <h2 class="nav__title">Режим работы:</h2>
+                    <h2 class="nav__title">Пн-Пт с 9:00 до 18:00</h2>
+                </span>
+                <button class="nav__btn">Отдел продаж</button>
+                <div class="hum__menu">≡</div>
+            </div>
+        </div>
+    </nav>
 
+    <!-- --------header-------- -->
+    <div class="header">
+        <div class="container header__container">
+            <h1 class="header__title">Поломоечные машины</h1>
+            <p class="header__text">Более 60 моделей в каталоге: Comac, Clemar, Tvx</p>
+            <button class="header__btn">В каталог</button>
+        </div>
+    </div> 
+
+    <!-- --------hero--------- -->
+     <div class="hero">
+        <div class="container hero__container">
+            <h2 class="hero__title">Категории</h2>
+            <p class="hero__text">Смотреть все</p>
+            <div class="hero__box">
+                <div class="hero__boxs">
+                    <img src="./images/hero.png" alt="" class="hero__img">
+                    <p class="hero__info">Бумажная продукция</p>
+                </div>
+                <div class="hero__boxs">
+                    <img src="./images/hero.png" alt="" class="hero__img">
+                    <p class="hero__info">Бумажная продукция</p>
+                </div>
+                <div class="hero__boxs">
+                    <img src="./images/hero.png" alt="" class="hero__img">
+                    <p class="hero__info">Бумажная продукция</p>
+                </div>
+                <div class="hero__boxs">
+                    <img src="./images/hero.png" alt="" class="hero__img">
+                    <p class="hero__info">Бумажная продукция</p>
+                </div>
+                <div class="hero__boxs">
+                    <img src="./images/hero.png" alt="" class="hero__img">
+                    <p class="hero__info">Бумажная продукция</p>
+                </div>
+            </div>
+        </div>
+     </div>
     <script src="./script.js"></script>
 </body>
 </html>
