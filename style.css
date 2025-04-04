@@ -29,6 +29,7 @@
     border: none;
     outline: none;
     cursor: pointer;
+    background: transparent;
 }
 .nav__title{
     font-weight: 400;
@@ -236,9 +237,12 @@
     row-gap: 20px;
 }
 .sponsor__item{
+    text-align: center;
     max-width: 100%;
     width: 300px;
     border: 2px solid rgba(231, 231, 231, 1);
+    border-radius: 12px;
+    margin: 0 auto;
 }
 .sponsor__item:hover, .hero__boxs:hover, .main__boxs:hover, .section__boxs:hover, .nav__btn:hover, .header__btn:hover{
     transform: scale(1.12);
