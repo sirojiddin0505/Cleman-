@@ -9,21 +9,13 @@
 .container{
     max-width: 1290px;
     margin: 0 auto;
-    border: 1px solid red;
 }
 /* ----nav--- */
-/* nav{
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    right: 0;
-    margin-bottom: 100px;
-} */
 .nav__container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px 0;
+    padding: 5px 10px;
 }
 .nav__right, .nav__left{
     display: flex;
@@ -197,8 +189,117 @@
 .section__list{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgba(34, 34, 34, 1);
+    margin: 60px 0;
+    padding: 6px;
+    border-radius: 12px;
+}
+.section__item{
+    text-align: center;
+    max-width: 100%;
+    width: 300px;
+}
+.section__pic{
+    max-width: 100%;
+    padding: 20px;
+}
+.section__subtitle{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px; 
+    color: rgba(255, 255, 255, 1);
+}
+.section__subtext{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26.4px;
+    color: rgba(255, 255, 255, 1);
+    padding: 6px 0;
+    padding-bottom: 20px;
+}
+.list{
+    padding-top: 100px;
+}
+/* -------sponsor----- */
+.sponsor__container{
+    padding-bottom: 50px ;
+}
+.sponsor__title{
+    padding: 60px 0;
+}
+.sponsor__list{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+.sponsor__item{
+    max-width: 100%;
+    width: 300px;
+    border: 2px solid rgba(231, 231, 231, 1);
+}
+.sponsor__item:hover, .hero__boxs:hover, .main__boxs:hover, .section__boxs:hover, .nav__btn:hover, .header__btn:hover{
+    transform: scale(1.12);
+    transition: all 0.8s;
+}
+.sponsor__img{
+    max-width: 80%;
+}
+/* ------footer------ */
+footer{
     background-color: rgba(34, 34, 34, 1);
 }
+.footer__container{
+    padding: 70px 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    row-gap: 40px;
+}
+.footer__img{
+    padding: 20px 0;
+}
+.footer__img:hover{
+    transform: scale(1.12);
+    transition: all 0.8s;
+}
+.footer__text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26.4px;   
+    color: rgba(255, 255, 255, 1);   
+    max-width: 370px;
+}
+.footer__title{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26.4px; 
+    color: rgba(255, 255, 255, 1); 
+    padding: 4px 0; 
+}
+.footer__title:hover{
+    transform: scale(1.2);
+    transition: all 0.6s;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+.footer__info{
+    color: rgba(255, 255, 255, 1);  
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26.4px; 
+    padding: 8px;
+}
+.footer__info:hover{
+    transform: scale(1.2);
+    transition: all 0.6s;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+
 
 @media only screen and (max-width:691px) {
     .nav__btn, .nav__title, .nav__i{
